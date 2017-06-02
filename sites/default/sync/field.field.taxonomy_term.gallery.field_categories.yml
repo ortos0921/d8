@@ -1,0 +1,27 @@
+uuid: 89d081cf-255e-48e0-a4f2-6b9442a564b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_categories
+    - taxonomy.vocabulary.gallery
+id: taxonomy_term.gallery.field_categories
+field_name: field_categories
+entity_type: taxonomy_term
+bundle: gallery
+label: Categories
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      gallery: gallery
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

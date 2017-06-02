@@ -1,0 +1,23 @@
+uuid: b2f4934e-2b4d-4ff5-aa9a-625c72a3a287
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_priority
+    - node.type.blog
+  module:
+    - options
+id: node.blog.field_priority
+field_name: field_priority
+entity_type: node
+bundle: blog
+label: Priority
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

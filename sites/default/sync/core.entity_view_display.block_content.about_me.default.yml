@@ -1,0 +1,22 @@
+uuid: 77c0f9ad-4f3e-448f-a5ce-9292d43d3bf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_me
+    - field.field.block_content.about_me.body
+  module:
+    - text
+id: block_content.about_me.default
+targetEntityType: block_content
+bundle: about_me
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

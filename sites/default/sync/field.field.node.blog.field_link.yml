@@ -1,0 +1,28 @@
+uuid: 0688f5f4-e073-46f8-9ce9-42799d259b67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.blog
+  module:
+    - link
+id: node.blog.field_link
+field_name: field_link
+entity_type: node
+bundle: blog
+label: Link
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:#www.google.com'
+    title: ''
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

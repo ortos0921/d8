@@ -1,0 +1,22 @@
+uuid: dbd06599-1dba-460d-9d61-8c4913524fd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.user_page
+    - field.field.block_content.user_page.body
+  module:
+    - text
+id: block_content.user_page.default
+targetEntityType: block_content
+bundle: user_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

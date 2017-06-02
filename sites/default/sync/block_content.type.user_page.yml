@@ -1,0 +1,8 @@
+uuid: 9025788c-4754-449b-bfce-2aa6de716bb0
+langcode: en
+status: true
+dependencies: {  }
+id: user_page
+label: 'User page'
+revision: 0
+description: ''

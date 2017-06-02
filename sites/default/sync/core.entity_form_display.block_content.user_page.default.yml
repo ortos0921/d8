@@ -1,0 +1,32 @@
+uuid: 15261bab-2999-473e-8b24-1514b4fc27da
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.user_page
+    - field.field.block_content.user_page.body
+  module:
+    - text
+id: block_content.user_page.default
+targetEntityType: block_content
+bundle: user_page
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
