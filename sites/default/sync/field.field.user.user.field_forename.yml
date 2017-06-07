@@ -1,0 +1,29 @@
+uuid: 5d8b9c8c-1291-4265-815e-d2d1240f368d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_forename
+  module:
+    - user
+id: user.user.field_forename
+field_name: field_forename
+entity_type: user
+bundle: user
+label: Forename
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

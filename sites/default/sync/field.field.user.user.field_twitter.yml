@@ -1,0 +1,28 @@
+uuid: 2a5e946a-aeda-483b-bbdf-ed3db0c38273
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_twitter
+  module:
+    - link
+    - user
+id: user.user.field_twitter
+field_name: field_twitter
+entity_type: user
+bundle: user
+label: Twitter
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:/twitter.com'
+    title: ''
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
